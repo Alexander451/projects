@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.banner{
+	width: 100%;
+}
+
+.img-info{
+	width: 100%;
+}
+
+.img-info2{
+	width: 100%;
+}
+
+.contacts{
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 30px;
+	}
+	
+.img-info h2{
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.img-info2 h2{
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.contacts h2{
+	padding-left: 30px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.img-info p{
+	padding: 0px 30px 20px;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.img-info2 p{
+	padding: 0px 30px 20px;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.contacts p{
+	padding-left: 30px;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.img-index{
+	width: 100%;
+}
+
+.img-index2{
+	width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.banner{
+	display:block;
+	width: 100%;
+	}
+	
+	.wrapper{
+	width: 600px;
+	margin: 0 auto; 
+	}
+	
+	.img-info h2{
+	padding: 20px 0px 0px;	
+	}
+	
+	.img-info2 h2{
+	padding: 20px 0px 0px;	
+	}
+
+	.img-info p{
+	padding: 20px 0px 0px;
+	}
+	
+	.img-info2 p{
+	padding: 20px 0px 0px;
+	}
+	
+	.img-index{
+		padding-top: 30px;
+	}
+	
+}
+
+@media only screen and (min-width: 1000px) {
+	.wrapper{
+	width: 1000px;
+	}
+	
+	.img-info{
+	width: 50%;
+	float: right;
+	padding-bottom: 30px;
+	}
+	
+	.img-info2{
+	width: 50%;
+	float: left;
+	}
+	
+	.img-info h2{
+	padding: 20px 0px 0px 30px ;	
+	}
+	
+	.img-info2 h2{
+	padding: 10px 0px 0px 0px ;	
+	}
+
+	.img-info p{
+	padding: 20px 0px 0px 30px;
+	}
+	
+	.img-info2 p{
+	padding: 20px 30px 0px 0px;
+	}
+	
+	.img-index{
+		width: 50%;
+		float: left;
+		padding-bottom: 30px;
+	}
+	
+	.img-index2{
+		width: 50%;
+		float: right;
+	}
+	
+	.contacts{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.office{
+	flex: 33%;
+	max-width: 33%;
+
+	}
+}
