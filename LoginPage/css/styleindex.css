@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  background-color: #b3ecff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #002633;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.topnav a:hover {
+  background-color: mediumpurple;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #002633;
+}
+
+.topnav-centered i {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #002633;
+}
+
+.topnav-centeredimg img {
+  position: relative;
+
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+.hero
+{
+    position: absolute;
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+footer
+{
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 50%;
+    
+}
+.button1
+{
+    border:1px solid white;
+    padding:10px 30px;
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.button1:hover
+{
+    background-color:darkorchid;
+    font-family: "Roboto",sans-serif;
+}
+hr
+{
+    display:block;
+    margin-top: 3%;
+    width:110%;
+}
+
+.posts 
+{
+  margin-left: 30px;
+  padding-bottom: 0px;
+}  margin-left: 30px;
+  padding-bottom: 0px;
+}
+.myform
+{
+    float: right;
+}
+h1
+{
+  float: none;
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+.containercontacts
+{
+    width:100%;
+    text-align:center;
+}
+.contacts
+{
+    float:left;
+    width:33%;
+}
+.contacts a
+{
+    color: orangered;
+    font-size: 35px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+    line-height: 300%;
+}
+.contactsicons 
+{
+  display: inline-block;
+    margin:0 auto;
+    width:33%;
+    padding-top: 20%;
+    padding-bottom: 30%;
+  
+}
+.contactsicons1
+{
+  float:right;
+    width:33%;
+  padding-top: 5%;
+  padding-bottom: 30%;
+}

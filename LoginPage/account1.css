@@ -1,0 +1,28 @@
+/*CSS style sheet*/
+#main-wrapper
+{
+	width:500px;
+	margin:0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border:2px solid black;
+}
+
+.myform
+{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputvalues
+{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+#loginbtn
+{
+	background-color:green;
+	
+}
